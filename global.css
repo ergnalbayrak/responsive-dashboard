@@ -1,0 +1,105 @@
+.m0 {
+    margin: 0
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1 {
+    padding: 1rem;
+}
+
+.pl1-5 {
+    padding-left: 1.5rem;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects-top-bar {
+    width: 100%;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w55 {
+    width: 55%;
+}
+
+.w15 {
+    width: 15%;
+}
+
+.center {
+    align-items: center;
+}
+
+.pt0 {
+    padding-top: 0;
+}
+
+.color-purple {
+    color: #9532ed;
+}
+
+.color-gray {
+    color: gray;
+}
+
+.color-blue {
+    color: #6468f2;
+}
+
+.color-black {
+    color: black;
+}
+
+.color-green {
+    color: #26c75e;
+}
+
+.color-orange {
+    color: #e5b30f;
+}
+
+.color-white {
+    color:white;
+}
+
+.pl1 {
+    padding-left: 1rem;
+}
+
+.pb2 {
+    padding-bottom: 2rem;
+}
+
+.pl2 {
+    padding-left: 2rem;
+}
+
+.pr2 {
+    padding-right: 2rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.pl05{
+    padding-left: 0.5rem;
+}
+
+.bradius10 {
+    border-radius: 10px;
+}
