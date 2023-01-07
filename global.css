@@ -19,6 +19,10 @@
     padding-left: 1.5rem;
 }
 
+.p0-75 {
+    padding: 0.75rem;
+}
+
 .space-around {
     display: flex;
     justify-content: space-around;
@@ -32,18 +36,33 @@
     width: 100%;
 }
 
+.w90 {
+    width: 90%;
+}
+
+.w80 {
+    width: 80%;
+}
+
 .w55 {
     width: 55%;
+}
+
+.w45 {
+    width: 45%;
 }
 
 .w15 {
     width: 15%;
 }
 
-.center {
+.align-center {
     align-items: center;
 }
 
+.content-center {
+    justify-content: center;
+}
 .pt0 {
     padding-top: 0;
 }
@@ -73,11 +92,15 @@
 }
 
 .color-white {
-    color:white;
+    color: white;
 }
 
 .pl1 {
     padding-left: 1rem;
+}
+
+.pb1 {
+    padding-bottom: 1rem;
 }
 
 .pb2 {
@@ -92,14 +115,101 @@
     padding-right: 2rem;
 }
 
+.pt1 {
+    padding-top: 1rem;
+}
+
 .bold {
     font-weight: bold;
 }
 
-.pl05{
+.pl05 {
     padding-left: 0.5rem;
+}
+
+.pl1-5 {
+    padding-left: 1.5rem;
 }
 
 .bradius10 {
     border-radius: 10px;
+}
+
+.end {
+    justify-content: end;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.bradius10 {
+    border-radius: 10px;
+}
+
+.bradius5 {
+    border-radius: 5px;
+}
+.w30 { 
+    width: 30%;
+}
+
+.card-border {
+    border-end-end-radius: 0;
+    border-start-end-radius: 0;
+}
+
+.bg-red {
+    background: #da2778;
+}
+
+.bg-orange {
+    background: #e5b30f;
+}
+
+.bg-purple {
+    background: #9532ed;
+}
+
+.bg-green {
+    background: #26c75e;
+}
+
+.card-item {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px solid #dbdbdd;
+    border-left: 0;
+  }
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+.fs24 {
+    font-size: 24px;
+}
+
+.h25px {
+    height: 25px;
+}
+
+.pl0-35 {
+    padding-left: 0.35rem;
+}
+
+.pl1-25{
+    padding-left: 1.25rem;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.ls5 {
+    letter-spacing: .5px;
 }
