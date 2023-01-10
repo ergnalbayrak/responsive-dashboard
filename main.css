@@ -1,13 +1,13 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 19.5% 80.5%;
+  grid-template-columns: 15% 85%;
   height: 100vh;
 }
 
 .aside {
   background: #f3f4f6;
   height: 100%;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .main {
@@ -57,6 +57,7 @@
   border-radius: 7px;
   border-width: 1px;
   border: 1px solid gray;
+  height: 10px;
 }
 
 .link {
@@ -89,7 +90,11 @@
 
 .cards>div {
   width: 23%;
-  height: 57px;
+  height: 45px;
+}
+
+.pb1-5 {
+  padding-bottom: 1.5rem;
 }
 
 .btop {
@@ -119,7 +124,19 @@ li.color-orange::marker {
 .item {
   height: 38.2px;
   background: white;
-  border-bottom: 1px solid #dbdbdd;
   align-items: center;
+  width: 100%;
   
+}
+
+.w84 {
+  width: 84%;
+}
+
+.pb0-5 {
+  padding-bottom: 0.5rem;
+}
+
+.pt0-5 {
+  padding-top: 0.5rem;
 }

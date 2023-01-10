@@ -135,6 +135,10 @@
     border-radius: 10px;
 }
 
+.bradius5 {
+    border-radius: 5px;
+}
+
 .end {
     justify-content: end;
 }
@@ -159,6 +163,14 @@
     border-start-end-radius: 0;
 }
 
+.card-border2 {
+    border-start-start-radius: 0;
+    border-end-start-radius: 0;
+}
+
+.pl0-5 {
+    padding-left: 0.5rem;
+}
 .bg-red {
     background: #da2778;
 }
@@ -182,8 +194,7 @@
     align-items: baseline;
     justify-content: center;
     padding: 1rem;
-    border: 1px solid #dbdbdd;
-    border-left: 0;
+    
   }
 
 .text-decoration-none {
@@ -213,3 +224,66 @@
 .ls5 {
     letter-spacing: .5px;
 }
+
+.w70 {
+    width: 76%;
+}
+
+.p0 {
+    padding: 0;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w21 {
+    width: 21%;
+}
+
+.content-end {
+    justify-content: end;
+}
+
+.w35 {
+    width: 35%;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+  }
+
+.pt05 {
+    padding-top: 0.5rem;
+}
+
+.h60 {
+    height: 60%;
+}
+
+.h-60 {
+    height: 60px;
+}
+
+.h-55 {
+    height: 55px;
+}
+
+.border {
+    border: 1px solid #dbdbdd;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .h-65 {
+    height: 65px;
+  }
